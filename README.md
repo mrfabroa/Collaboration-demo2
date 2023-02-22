@@ -13,3 +13,21 @@ Maecenas eu scelerisque felis. Ut et arcu dictum, commodo lorem vel, porttitor n
 
 Mauris sit amet odio urna. Mauris cursus eu dolor quis lacinia. Curabitur id nulla eu mauris faucibus finibus id ut lorem. Ut lobortis vel ipsum eu vulputate. Vivamus ultrices est arcu, nec tristique lorem tristique quis. Mauris tortor ligula, lacinia quis velit vitae, aliquam dignissim lectus. In sit amet orci eget dolor ullamcorper gravida a vel metus. Donec id varius dolor. Morbi nunc odio, congue ut porta at, tristique vitae velit. Suspendisse ut mauris id lectus lobortis blandit. Etiam fermentum, lacus sed porta dictum, libero purus tempor metus, vel finibus dui dui nec tellus. Donec ac nisl non massa condimentum venenatis sodales sit amet lorem. Donec suscipit commodo mauris id condimentum. Vivamus eget ligula velit. Nunc vel sem vitae risus fermentum pharetra.
 
+## Section Greg
+public class Main {
+
+    public static void main(String args[]) throws IOException {
+
+        System.out.println(HelloWorld());
+    }
+
+    /*
+     * @author Greg L.
+     * @return returns "Hello World!" String to be printed.
+     * Outputs the string "Hello World!" To be printed in main
+     * */
+    public String HelloWorld(){
+
+        return "Hello World!";
+    }
+}
